@@ -6,7 +6,7 @@ Sistem point of sales kasir berbasis website, sistem ini dibangun dengan menggun
 
 ## Setup
 
-- Rename file `env` menjadi `.env`
+- Rename file `_env` menjadi `.env`
 - rename folder `_vendor` menjadi `vendor`
 - masuk ke direktori `public/template/` lalu rename folder `_build` dan `_dist` menjadi `build` dan `dist`
 - import database yang ada di folder `db/tokoku.sql`
