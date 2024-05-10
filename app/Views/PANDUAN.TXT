@@ -1,0 +1,12 @@
+fitur yang akan dibuat :
+1. stok barang
+2. barang masuk
+3. barang keluar
+4. kas penjualan
+5. pemasukan
+6. pengeluaran
+7. rekap kas
+8. keuntungan bulan ini
+9. keuntungan bulan kemarin
+10. laporan
+11. kasir

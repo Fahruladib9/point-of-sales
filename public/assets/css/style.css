@@ -1,0 +1,45 @@
+/* body {
+    visibility: hidden;
+}
+.print{
+    visibility: visible;
+}
+.judul {
+    font-size: 18px;
+} */
+
+
+@media print {
+    body {
+        visibility: hidden;
+    }
+
+    #halamanCetak,
+    #halamanCetak * {
+        visibility: visible;
+    }
+    .print{
+        visibility: visible;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+    }
+
+    .invoice {
+        visibility: visible;
+    }
+
+    #halamanCetak {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    /* Atur ukuran halaman cetak seperti kertas bukti pembayaran kasir */
+    @page {
+        size: 75mm 297mm;
+        /* Ukuran kertas bukti pembayaran kasir dalam milimeter */
+        margin: 0;
+        /* Hilangkan margin default */
+    }
+}
